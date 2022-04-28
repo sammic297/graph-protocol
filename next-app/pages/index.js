@@ -317,10 +317,10 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Random Winner Game!</h1>
+          <h1 className={styles.title}>Welcome to Random Game!</h1>
           <div className={styles.description}>
-            Its a lottery game where a winner is chosen at random and wins the
-            entire lottery pool
+            It is a game where a winner is chosen at random and is declared the winner from the entire pool of players.
+            (Built using Graph Protocol on Mumbai Testnet)
           </div>
           {renderButton()}
           {logs &&
